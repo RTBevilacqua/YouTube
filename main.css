@@ -1,0 +1,53 @@
+html{
+	box-sizing: border-box;
+}
+body{
+	background: #ccffff;
+}
+
+header{
+	text-align: center;
+	letter-spacing: 2px;
+	background: white;
+	padding: 24px;
+    margin: -9px -10px 0;
+}
+
+input[type='text'], textarea{
+	background: white;
+	width: 300px;
+    height: 20px;
+}
+
+input[type=submit]{
+	background: white;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#yp-form{
+	text-align: center;
+    padding: 30px;
+    margin: 0 -10px;
+    background: linear-gradient(grey, black);
+
+}
+
+.results{
+	max-width: 60%;
+    margin: 30px auto;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 2%;
+    background: white;
+
+}
+
+.lightbox{
+	height: 600px;
+    width: 750px;
+    background: grey;
+    position: absolute;
+    bottom: -355px;
+    left: 217px;
+}
